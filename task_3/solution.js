@@ -23,7 +23,7 @@ function renderCartItem(item) {
     // 7. Присвойте переменной itemCountText результат склеивания itemCountText и sum
     // 8. Присвойте переменной itemCountText результат склеивания itemCountText и ` ₽`
 
-    let itemCountText = ` `;
+    let itemCountText = ``;
     // Конец решения задания №3.1.
     itemCountText = `${itemCountText}` + `${product.count}`;
     itemCountText = `${itemCountText}` + ` × `;
